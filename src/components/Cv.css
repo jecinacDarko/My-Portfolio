@@ -1,0 +1,23 @@
+.CvContainer  {
+  margin:auto;
+  padding:50px;
+}
+
+.CvImage {
+  display:flex;
+  margin:auto;
+  justify-content:center;
+  align-items:center;
+    
+}
+
+.resume-image {
+  width: 50%;
+  height: 50%;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  justify-content:center;
+  align-items:center; 
+}
+
