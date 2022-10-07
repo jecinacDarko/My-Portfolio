@@ -24,11 +24,7 @@ const ProjectCardData = [
   {
     imgsrc: pro3,
     title: "React-Redux Todo App",
-    text: `App for tracking presence, academic and behavioral performance of students. 
-    Often working as a teacher, you have a lot of paperwork to do! 
-    And you can only get so much information from papers. 
-    We decided to help school teachers to track absence, 
-    performance and behaviour of their student easily and effortlessly.`
+    text: `Simple Todo App more text`
   },
 ];
 
