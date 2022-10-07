@@ -1,0 +1,38 @@
+.projectCard {
+  margin:auto;
+  width: 25%;
+  height: 40%; 
+  background-color:white;
+  display:flex;
+  flex-direction:column;
+  flex-wrap:wrap;
+}
+
+.projectCard__name {
+  font-weight: 200;
+  padding:10px;
+}
+
+.projectCard__image {
+  width:90%;
+  height:40%;
+  margin:0 auto;
+  border:1px solid lightgray;
+  border-bottom:none;
+  
+}
+
+.projectCard__description {
+  height:35%;
+  width:90%;
+  color:black;
+  font-size:0.6em;
+  padding:5%;
+  text-align:justify;
+  text-rendering:geometricPrecision;
+  border:1px solid lightgray;
+  border-top:none;
+  margin:0 auto;
+  overflow:hidden;
+  
+}
