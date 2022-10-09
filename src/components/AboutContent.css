@@ -4,64 +4,60 @@ section {
   background:black;
   background-position: center;
   object-fit: cover;
-  
 }
 
 .container {
-  display:inline-block;
   width:100vw;
   height:100vh;
-  align-items: center;
-  top:100px;
-  display: inline-block;
   box-sizing:border-box;
+  display: flex;
+  justify-content:center;
+  align-items: center;
 }
 
 aside { 
+  display:inline-block;
   text-align:center;
   justify-content:center;
-  align-items:center; 
+  margin:auto;
   width:50%;
-  height:100%;
-  margin: 0;
-  float:left;
-  padding-left:50px;
+  box-sizing:border-box;
 }
 
 .right {
+  display:inline-block;
   text-align:center;
-  justify-content:center;
   align-items:center; 
-  width:50%;
-  height:100%;
-  padding:0;
-  margin:0;
+  margin:auto;
+  width:30%;
+  height:auto;
+  box-sizing:border-box;
 }
 
   article {
   color:white;
-  font-size:0.9em;
-  width:100%;
-  margin:10px;
-  margin-bottom:20px;
-  
+  font-size:1em;
+  width:80%;
+  margin:auto;
+  padding:3em;
+  overflow: hidden;
 
 }
 
 .about_headline {
   color:white;
-  padding:12% 5% 2% 5%;
+  padding:0.2em;
   margin:0;
+  font-size:5em;
 }
 
 .aboutPicture {
-  width: 350px;
+  width: auto;
   height:auto;
   position:relative;
-  float:right;
   border:1px solid lightgray;
-  margin-top:40px; 
-  max-width:500px;
+  max-width:700px;
+  width:auto;
 }
 
 .thumbnail {
@@ -70,10 +66,15 @@ aside {
 
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1200px) {
 
   section {
     background-image:none;
+  }
+
+  .container {
+    display:flex;
+    flex-direction: column;
   }
 
   aside {
@@ -87,17 +88,26 @@ aside {
     text-align: center;  
   }
 
+  .about_headline {
+    font-size:3em; 
+  }
+  
+
   article {
-    text-align: center;
-    align-items:center;
-    font-size:0.9em;
-    overflow:hidden;
-    margin:8px;
+    max-height:25em;
+    margin-bottom:1.2em;
+    
   }
 
   .thumbnail {
     visibility:visible;
-    width: 100%;
+    width: 100vw;
     height: auto;
+    margin: auto;
+  }
+  
+  .aboutPicture {
+    display: none;
   }
 }
+
