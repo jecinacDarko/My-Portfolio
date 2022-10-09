@@ -40,25 +40,28 @@ aside {
 
   article {
   color:white;
-  font-size:1em;
+  font-size:0.9em;
   width:100%;
-  margin:10%;
-  width:80%;
+  margin:10px;
+  margin-bottom:20px;
+  
 
 }
 
 .about_headline {
   color:white;
-  font-size:3em;
   padding:12% 5% 2% 5%;
+  margin:0;
 }
 
 .aboutPicture {
-  width:450px;
+  width: 350px;
   height:auto;
-  position: absolute;
+  position:relative;
   float:right;
   border:1px solid lightgray;
+  margin-top:40px; 
+  max-width:500px;
 }
 
 .thumbnail {

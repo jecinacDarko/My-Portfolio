@@ -28,7 +28,7 @@ const AboutContent = () => {
             
             Not long after I got a job which was a position in a company called Brightstar which handled warehouse processes for 
             Telenor where I was making sure that imei number databases are in sync on both Telenors and Brightstars systems. 
-            Here is when I decided to finaly go after then thing that next to music i love the most. I did some investigation about
+            Here is when I decided to finaly go after the thing that next to music i love the most. I did some investigation about
             the fastest way to grow in IT industry and first thing that I’ve encountered in my Home city of Stockholm was SALT,
             School Of Applied Technology.  
 
