@@ -9,6 +9,8 @@ import {
   FaFacebook,
   FaTwitter,
   FaLinkedin,
+  FaInstagramSquare,
+  FaYoutubeSquare,
 } from "react-icons/fa";
 
 const Footer = () => {
@@ -44,10 +46,9 @@ const Footer = () => {
         </div>
 
         <div className="right">
-          <h4>About me</h4>
+          <h4>If you want to see more!? </h4>
           <p>
-            Salt developer with good knowledge in 
-            whole javascript stack.
+            Here are my social media links:
           </p>
           <div className="social">
             <FaFacebook
@@ -59,6 +60,14 @@ const Footer = () => {
               style={{ color: "#fff", marginRight: "1rem" }}
             />
             <FaLinkedin
+              size={30}
+              style={{ color: "#fff", marginRight: "1rem" }}
+            />
+            <FaInstagramSquare
+              size={30}
+              style={{ color: "#fff", marginRight: "1rem" }}
+            />
+            <FaYoutubeSquare
               size={30}
               style={{ color: "#fff", marginRight: "1rem" }}
             />

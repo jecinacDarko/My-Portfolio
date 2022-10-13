@@ -9,8 +9,8 @@ const AboutContent = () => {
     <section> 
       <div className='container'> 
           <aside>
-            <h1 className='about_headline'>Who Am I?</h1>
             <img src={thumbnail} alt="portrait img" className="thumbnail" />
+            <h1 className='about_headline'>Who Am I?</h1>
             <article>
             Hey my name is Darko. My first contact with coding was at my high school where we were learning some C & C++ and
             this is where i instantly fell in love with it. During those days i have also started working on a radio station,

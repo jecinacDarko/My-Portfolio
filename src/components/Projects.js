@@ -5,7 +5,7 @@ import WorkCard from '../components/WorkCard';
 export default function Projects() {
   return (
     <div className="projectPage">
-      <h1 className="headline">MY LATEST PROJECTS</h1>
+      <h1 className="headline">LATEST PROJECTS</h1>
       <div className="projectContainer">
         {projectCardData.map((card, index)=> {
           return (

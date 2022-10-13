@@ -8,7 +8,7 @@ const Resume = () => {
   return (
     <div>
       <Navbar />
-      <BannerImage heading="RESUME" text="Check out my work experience!" />
+      <BannerImage heading="RESUME" text="Here you can download my resume!" />
       <Cv />
       <Footer />
     </div>

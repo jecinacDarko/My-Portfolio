@@ -1,7 +1,7 @@
 import cardImage1 from "../assets/projects/trackmate1.jpg";
-import cardImage2 from "../assets/projects/trackmate1.jpg";
-import cardImage3 from "../assets/projects/trackmate1.jpg";
-import cardImage4 from "../assets/projects/trackmate1.jpg";
+import cardImage2 from "../assets/projects/trackmate2.jpg";
+import cardImage3 from "../assets/projects/trackmate3.jpg";
+import cardImage4 from "../assets/projects/trackmate2.jpg";
 
 const ProjectCardData = [
   {
@@ -15,7 +15,7 @@ const ProjectCardData = [
   },
   {
     imgsrc: cardImage2,
-    title: "Unsplash Pepper",
+    title: "React Calculator",
     description: `A simple unsplash searching page using unsplash API. 
     Try it out here http://unsplash-pepperjs.s3-website.eu-north-1.amazonaws.com/} .
     The page uses History API to manage the state of the app so every search will 
@@ -24,7 +24,7 @@ const ProjectCardData = [
   },
   {
     imgsrc: cardImage3,
-    title: "Unsplash Pepper",
+    title: "Todo App",
     description: `A simple unsplash searching page using unsplash API. 
     Try it out here http://unsplash-pepperjs.s3-website.eu-north-1.amazonaws.com/} .
     The page uses History API to manage the state of the app so every search will 
