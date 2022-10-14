@@ -36,6 +36,7 @@ const AboutContent = () => {
             has started.  
             </article>
             
+            
             <Link to="/contact">
               <button className="btn">Contact</button>
             </Link>
