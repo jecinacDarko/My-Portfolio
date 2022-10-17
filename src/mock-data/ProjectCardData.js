@@ -21,7 +21,7 @@ const ProjectCardData = [
   },
   {
     imgsrc: cardImage4,
-    title: "React Native Calculator",
+    title: "RN Calculator",
     description: `A simple React Native Calculator. Copy of apples calculator`
   },
 ];

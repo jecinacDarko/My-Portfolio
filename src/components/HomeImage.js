@@ -1,6 +1,6 @@
 import "./HomeImage.css";
 import React from "react";
-import IntroImg from "../assets/macbookpic.jpg";
+import IntroImg from "../assets/2ndhome.jpg";
 import { Link } from "react-router-dom";
 
 const HomeImage = () => {
