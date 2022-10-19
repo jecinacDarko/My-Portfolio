@@ -1,25 +1,13 @@
-import React from 'react';
-import './App.css';
-import Home from "./routes/Home";
-import About from "./routes/About";
-import Contact from "./routes/Contact";
-import Resume from './routes/Resume';
-import Projects from './routes/Projects';
-
-import { Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import AnimatedRoutes from "./animated-routes/AnimatedRoutes";
 
 
-function App() {
+function App() { 
   return (
-    <div>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} /> 
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/resume" element={<Resume />} />
-      </Routes>
-    </div>
+    <Router>
+      <AnimatedRoutes />
+    </Router>
   );
 }
 
