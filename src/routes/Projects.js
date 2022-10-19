@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Projects from "../components/Projects";
+import BannerImage from "../components/BannerImage";
 import { motion } from "framer-motion";
 
 const Work = () => {
