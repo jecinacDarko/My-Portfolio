@@ -33,14 +33,14 @@ aside {
   padding:0;
 }
 
-  article {
+  .about_article {
   color:white;
   font-size:0.9em;
   width:80%;
   height:80%;
   margin:auto;
   padding:1em;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .about_headline {
@@ -66,11 +66,8 @@ aside {
 
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1025px) {
 
-  section {
-    height:100%;
-  }
 
   .container {
     display:flex;
@@ -93,11 +90,9 @@ aside {
   }
   
 
-  article {
-    max-height:25em;
-    margin-bottom:1.2em;
-    font-size:0.7em;  
-
+  .about_article {
+    height:em;
+    font-size:0.8em;  
   }
 
   .thumbnail {
@@ -112,5 +107,18 @@ aside {
     display: none;
   }
 
+  article {
+    height:100vh;
+    font-size:0.5em;
+  }
+
 }
 
+@media screen and (max-width: 510px) {
+  .about_article {
+    height:55%;
+    font-size:0.7em; 
+
+  }
+
+}  

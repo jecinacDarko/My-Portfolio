@@ -6,6 +6,7 @@ export default function Projects() {
   return (
     <div className="projectPage">
       <h1 className="headline">Latest Projects.</h1>
+      <p>Check out my recent work</p>
       <div className="projectContainer">
 {/* 
       Planning to set the bolean to choose data from database if there is 

@@ -15,7 +15,7 @@ const Contact = () => {
         exit={{ opacity: 0 }}
         transition={{ duration: 1 }}
         >
-      <BannerImage heading="CONTACT." text="Feel free to contact me here." />
+      <BannerImage heading="CONTACT." text="Feel free to contact me here."/>
       <Form />
       </motion.div>
       <Footer />

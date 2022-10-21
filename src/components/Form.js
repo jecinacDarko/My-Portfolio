@@ -24,8 +24,8 @@ export const Form = () => {
       <input type="text" name="user_name"></input>
       <label>Email</label>
       <input type="email" name="user_email"></input>
-      <label>Subject</label>
-      <input type="text" name="subject"></input>
+      {/* <label>Subject</label>
+      <input type="text" name="subject"></input> */}
       <label>Message</label>
       <textarea rows="6" placeholder="Type your message here" name="message"/>
       <button className="btn" type="submit" value="send">Submit</button> 

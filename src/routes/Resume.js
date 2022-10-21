@@ -15,7 +15,7 @@ const Resume = () => {
         exit={{ opacity: 0 }}
         transition={{ duration: 1 }}
         >
-      <BannerImage heading="RESUME." text="Check out my work experience!" />
+      <BannerImage heading="RESUME." text="Download to be implemented." />
       <Cv />
       </motion.div>
       <Footer />
