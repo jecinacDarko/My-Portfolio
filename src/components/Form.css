@@ -26,3 +26,8 @@ form input, form textarea{
   border-color: rgba(255, 255, 255, 0.1);
   color: #f4f4f4;
 }
+
+.messageSent {
+  color:black;
+  font-size:50px;
+}

@@ -1,29 +1,25 @@
-import "./Projects.css";
+import './Projects.css';
 import projectCardData from '../mock-data/ProjectCardData';
-import WorkCard from '../components/WorkCard';
+import WorkCard from './WorkCard';
 
 export default function Projects() {
   return (
-    <div className="projectPage">
-      <h1 className="headline">Latest Projects.</h1>
+    <div className='projectPage'>
+      <h1 className='headline'>Latest Projects.</h1>
       <p>Check out my recent work</p>
       <div className="projectContainer">
-{/* 
-      Planning to set the bolean to choose data from database if there is 
-      connection or otherwise to take data from local file */}
-
-        {projectCardData.map((card, index)=> {
+        {projectCardData.map((card, index) => {
           return (
-            <WorkCard 
+            <WorkCard
             key={index}
             imgsrc={card.imgsrc}
             title={card.title}
             description={card.description}
+            view={card.view}
             />
           );
         })}
-          
       </div>
     </div>
-  )
+  );
 }
