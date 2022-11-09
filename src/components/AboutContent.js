@@ -30,7 +30,6 @@ const AboutContent = () => {
                 </span>
               </article>
               
-              
               <Link to="/contact">
                 <button className="btn">Contact</button>
               </Link>
