@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 
 const Home = () => {
   return (
-    <div>
+    <div className='scrollercoaster'>
       <Navbar />
       <motion.div
         initial={{ opacity: 0 }}

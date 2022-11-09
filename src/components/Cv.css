@@ -1,7 +1,10 @@
 .CvContainer  {
   margin:auto;
   padding:50px;
-  background: linear-gradient(91.7deg, rgb(12, 3, 24) 180%, rgb(23, 23, 23) 101.8%);
+  background: url("../assets/projectsnew.jpg");
+  background-size:cover;
+  justify-content:center;
+  text-align:center;
 }
 
 .CvImage {
@@ -23,3 +26,7 @@
   align-items:center; 
 }
 
+.headline {
+  padding:10px;
+  margin:50px auto;
+}

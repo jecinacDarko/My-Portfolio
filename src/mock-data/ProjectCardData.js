@@ -1,7 +1,7 @@
 import trackmateImage from '../assets/projects/trackmate1.jpg';
 import newsgalleryImage from '../assets/projects/newsgallery.png';
 import todoImage from '../assets/projects/todoImage.JPG';
-import calculatorImage from '../assets/projects/reactnativecalculator.png';
+import calculatorImage from '../assets/projects/reactNativeImage.jpg';
 
 const ProjectCardData = [
   {
@@ -32,7 +32,7 @@ const ProjectCardData = [
   {
     imgsrc: calculatorImage,
     title: 'RN Calculator',
-    description: `A simple React Native Calculator. Styles are recreated Apple Ios calculator styles.
+    description: `A simple React Native Calculator. Reminds of Apple IOS calculator style.
     No comfort do written conduct at prevent manners on. Celebrated contrasted discretion him 
     sympathize her collecting occasional. Do answered bachelor occasion in of offended no concerns. 
     Supply worthy warmth branch of no ye. `,

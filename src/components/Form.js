@@ -33,7 +33,7 @@ export const Form = () => {
           <button className="btn" type="submit" value="send">Submit</button> 
         </form>
       </div>}
-      {messageSent && <div className="messageSent">PORUKA POSLATA</div>}
+      {messageSent && <div className="messageSent">Thank you for contacting me! <br></br>Your email has been sent sucessfully! </div>}
     </div>  
   );
 };
