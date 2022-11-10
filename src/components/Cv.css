@@ -30,3 +30,16 @@
   padding:10px;
   margin:50px auto;
 }
+
+@media screen and (max-width: 640px) {
+  .resume-image {
+    width:100%;
+    height:auto;
+  }
+  .headline {
+    padding:0px;
+  }
+  .CvContainer {
+    height:100vh;
+  }
+}
