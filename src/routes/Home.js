@@ -1,10 +1,10 @@
-import React from "react";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-import HomeImage from "../components/HomeImage";
-import Projects from "../components/Projects";
-import AboutContent from "../components/AboutContent";
-import { motion } from "framer-motion";
+import React from 'react';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+import HomeImage from '../components/HomeImage';
+import Projects from '../components/Projects';
+import AboutContent from '../components/AboutContent';
+import { motion } from 'framer-motion';
 
 const Home = () => {
   return (

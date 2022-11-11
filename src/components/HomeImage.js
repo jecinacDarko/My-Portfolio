@@ -2,6 +2,7 @@ import "./HomeImage.css";
 import React from "react";
 import IntroImg from "../assets/2ndhome.jpg";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const HomeImage = () => {
   return (
