@@ -52,6 +52,21 @@
   margin: 1rem 0.2rem;
 }
 
+.typewriter {
+  border-right: 2px solid #fff;
+  animation: blinkTextCursor 0.5s infinite;
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: #ffff;
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+
 @media screen and (max-width: 640px) {
   .hero .content h1 {
     font-size: 3rem;

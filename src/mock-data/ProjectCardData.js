@@ -1,5 +1,5 @@
 import trackmateImage from '../assets/projects/trackmate1.jpg';
-import newsgalleryImage from '../assets/projects/newsgallery.png';
+import photoAppImage from '../assets/projects/rn-photo-app-image.jpg';
 import todoImage from '../assets/projects/todoImage.JPG';
 import calculatorImage from '../assets/projects/reactNativeImage.jpg';
 
@@ -14,9 +14,9 @@ const ProjectCardData = [
     Supply worthy warmth branch of no ye.`,
   },
   {
-    imgsrc: newsgalleryImage,
-    title: 'News Gallery',
-    description: `Simple gallery project that should show some thing and describe it.
+    imgsrc: photoAppImage,
+    title: 'Camera App',
+    description: `Simple camera app made in React Native that alows you to save pictures on your phone.
     No comfort do written conduct at prevent manners on. Celebrated contrasted discretion him 
     sympathize her collecting occasional. Do answered bachelor occasion in of offended no concerns. 
     Supply worthy warmth branch of no ye. `,

@@ -2,6 +2,7 @@ import React from 'react';
 import './WorkCard.css';
 import './Projects.css';
 import { Link } from "react-router-dom";
+import styled from '@emotion/styled/macro';
 
 export default function WorkCard(props) {
   return (
