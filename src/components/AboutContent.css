@@ -60,6 +60,10 @@ aside {
   border-radius:10px;
 }
 
+.aboutPictureWrapper{
+  border-radius:10px;
+}
+
 .thumbnail {
   visibility: hidden;
   width:0;
@@ -109,7 +113,7 @@ aside {
   }
 }
 
-@media screen and (max-width: 510px) {
+@media screen and (max-width: 600px) {
   .about_article {
     height:55%;
     font-size:0.7em; 

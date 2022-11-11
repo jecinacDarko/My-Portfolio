@@ -25,13 +25,6 @@
     font-size: 1.2rem;
     font-weight: 500;
   }
-  
-  .nav-menu li:hover {
-    font-size: 1.2rem;
-    font-weight: 500;
-    background-color:sandybrown;
-    border-radius:5px;
-  }
 
   .hamburger {
     display: none;
@@ -59,9 +52,9 @@
     .nav-menu li {
       padding: 1rem 0;
     }
-  
+
     .nav-menu li a {
-      font-size: 2rem;
+      font-size: 1.6em;
     }
 
     .hamburger {

@@ -5,6 +5,7 @@ label{
 
 .form {
   background: linear-gradient(91.7deg, rgb(20, 4, 39) -180%, rgb(23, 23, 23) 101.8%);
+  justify-content:center;
 }  
 
 form{
@@ -13,9 +14,7 @@ form{
   padding: 2rem 1rem;
   margin: auto;
   max-width: 600px;
-  height:100vh;
-  
-  
+  height:100%; 
 }
 
 form input, form textarea{

@@ -20,7 +20,7 @@
   width: 50%;
   height: 50%;
   background-size: cover;
-  background-position: center;
+  background-position: right;
   object-fit: cover;
   justify-content:center;
   align-items:center; 
@@ -33,11 +33,12 @@
 
 @media screen and (max-width: 640px) {
   .resume-image {
-    width:100%;
+    width:110%;
     height:auto;
   }
   .headline {
     padding:0px;
+    font-size:1.5em;
   }
   .CvContainer {
     height:100vh;

@@ -46,7 +46,8 @@ const AboutContent = () => {
               </motion.div>
             </aside>
             <div className='right'>
-            <motion.button
+            <motion.button 
+              className='aboutPictureWrapper'
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.92 }}
             >
