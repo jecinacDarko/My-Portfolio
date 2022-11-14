@@ -1,8 +1,8 @@
 import "./Navbar.css";
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { Link as LinkS } from 'react-scroll';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import { animateScroll as scroll } from 'react-scroll';
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -17,9 +17,9 @@ const Navbar = () => {
     }
   };
 
-  window.addEventListener("scroll", changeColor);
+  const closeMenu = () => setClick(false)
 
-  
+  window.addEventListener("scroll", changeColor);
 
   return (
     <div className={color ? "header header-bg" : "header"}>
@@ -27,10 +27,10 @@ const Navbar = () => {
       <Link to="/"></Link>
 
       <ul className={click ? "nav-menu active" : "nav-menu"}> 
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
-        <li><Link to="/projects">Projects</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
+        <li><LinkS to="home" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>Home</LinkS></li>
+        <li><LinkS to="about" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>About</LinkS></li>
+        <li><LinkS to="projects" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>Projects</LinkS></li>
+        <li><LinkS to="contact" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>Contact</LinkS></li>
         <li><Link to="//drive.google.com/file/d/1vf2PPXBSpRJYQEC6--cfzbthnhnNlg6l/view?usp=share_link">Resume</Link></li>
         
 

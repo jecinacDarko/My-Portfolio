@@ -3,12 +3,11 @@ import React from "react";
 import thumbnail from '../assets/aboutPic.jpg';
 import aboutPicture from '../assets/IMG_6628.jpeg'
 import { Link } from "react-router-dom";
-import motion from "framer-motion";
 
 const AboutContent = () => {
   return (
     <section> 
-      <div className='aboutContainer'> 
+      <div className='aboutContainer' id="about"> 
           <aside className='leftside'>
             <img src={thumbnail} alt="portrait img" className="thumbnail" />
             <h1>About me.</h1>
@@ -17,7 +16,7 @@ const AboutContent = () => {
               Hi! My name is Darko! I'm a Full Stack Developer based in Stockholm, Sweden.
               Before I started with professional coding career I've spent 15 years working as
               a Music Producer, Sound Engineer and one of the most popular DJ's and show runners 
-              in Serbia where I was born. <br/> <br/> <br/>
+              in my home country of Serbia. <br/> <br/> <br/>
 
               <span className="techStack">
               <h2>TECH STACK:</h2>

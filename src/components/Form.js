@@ -18,7 +18,7 @@ export const Form = () => {
   };
 
   return (
-    <div className='formContainer'>
+    <div className='formContainer' id="contact">
       <h1>Contact.</h1>
       <p>Feel free to send me an email!</p>
       {!messageSent && <div className="form">

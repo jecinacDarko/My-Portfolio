@@ -5,7 +5,7 @@ import motion from "framer-motion";
 
 export default function Projects() {
   return (
-    <div className='projectsPage'>
+    <div className='projectsPage' id="projects">
       
       <h1 className='projectsHeadline'>Latest Projects.</h1>
       <p className='projectsPage_title'>Check out my recent work</p>

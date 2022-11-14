@@ -1,11 +1,9 @@
-import { BrowserRouter as Router } from 'react-router-dom';
-import AnimatedRoutes from './animated-routes/AnimatedRoutes';
-import ScrollToTop from './components/ScrollToTop';
+import { BrowserRouter as Router } from "react-router-dom";
+import AnimatedRoutes from "./animated-routes/AnimatedRoutes";
 
 function App() {
   return (
     <Router>
-      <ScrollToTop />
       <AnimatedRoutes />
     </Router>
   );
