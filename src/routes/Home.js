@@ -1,14 +1,14 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import HomeImage from '../components/HomeImage';
+import HomePage from '../components/HomePage';
 import Projects from '../components/Projects';
 import AboutContent from '../components/AboutContent';
 import { motion } from 'framer-motion';
 
 const Home = () => {
   return (
-    <div className='scrollercoaster'>
+    <div>
       <Navbar />
       <motion.div
         initial={{ opacity: 0 }}
@@ -16,7 +16,7 @@ const Home = () => {
         exit={{ opacity: 0 }}
         transition={{ duration: 1 }}
         >
-      <HomeImage />
+      <HomePage />
       <AboutContent />
       <Projects />
       </motion.div>

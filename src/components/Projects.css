@@ -1,7 +1,7 @@
-.projectPage {
+.projectsPage {
   width:100vw;
   height:100% ;
-  background-image:url("../assets/projectsnew.jpg");
+  background-image:url("../assets/photos/anotherOne.png");
   background-size: cover;
   background-repeat: no-repeat;
   image-orientation:inherit;
@@ -9,7 +9,18 @@
   padding:20px;
 }
 
-.projectContainer {
+.projectsPage h1 {
+  margin:auto;
+  padding-top:2em;
+  font-size:2.5em;
+}
+
+.projectsPage p {
+  font-size:0.8em;
+  padding-top:0.1em;
+}
+
+.projectsContainer {
   width:100%;
   height:80vh;
   display:flex;
@@ -19,31 +30,15 @@
   overflow:hidden;
 } 
 
-.project {
-  width:300px;
-  height:500px;
-  background-color:white; 
-  margin:0px 20px;
-  display:flex;
-  flex-direction: column;
-  flex-wrap:wrap;
-  height:auto;
-}
-
-.headline {
-  margin:auto;
-  padding:5px;
-  padding-top:100px;
-  font-size: 2.7em; 
-}
-
 @media screen and (max-width: 1024px) {
-  .projectContainer {
-    overflow:visible;
-    height:auto;
-  }
-  .headline {
+
+  .projectsPage h1 {
     font-size:1.8em;
+    padding:20px;
+  }
+
+  .projectsPage p {
+    font-size:1em;
     padding:20px;
   }
 }

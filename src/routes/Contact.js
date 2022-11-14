@@ -15,9 +15,6 @@ const Contact = () => {
         exit={{ opacity: 0 }}
         transition={{ duration: 1 }}
         >
-      <BannerImage 
-        heading="Contact" 
-        text="Feel free to send me an email!"/>
       <Form />
       </motion.div>
       <Footer />

@@ -5,7 +5,6 @@ import './Form.css';
 export const Form = () => {
   const [messageSent, setMessageSent] = useState(false);
   const form = useRef();
-
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs.sendForm('service_1n4qu3d', 'template_jq1fw55', form.current, '_8L0WmMTkcNBbAb6L')
@@ -19,7 +18,9 @@ export const Form = () => {
   };
 
   return (
-    <div>
+    <div className='formContainer'>
+      <h1>Contact.</h1>
+      <p>Feel free to send me an email!</p>
       {!messageSent && <div className="form">
         <form ref={form} onSubmit={sendEmail}>
           <label>Your Name</label>

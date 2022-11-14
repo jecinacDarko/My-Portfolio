@@ -16,6 +16,7 @@ const ProjectCardData = [
   {
     imgsrc: photoAppImage,
     title: 'Camera App',
+    view: '//https://todo-app-redux-react.netlify.app/',
     description: `Simple camera app made in React Native that alows you to save pictures on your phone.
     No comfort do written conduct at prevent manners on. Celebrated contrasted discretion him 
     sympathize her collecting occasional. Do answered bachelor occasion in of offended no concerns. 

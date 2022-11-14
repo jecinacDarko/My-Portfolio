@@ -4,10 +4,10 @@ import WorkCard from './WorkCard';
 
 export default function Projects() {
   return (
-    <div className='projectPage'>
-      <h1 className='headline'>Latest Projects.</h1>
+    <div className='projectsPage'>
+      <h1 className='projectsHeadline'>Latest Projects.</h1>
       <p>Check out my recent work</p>
-      <div className="projectContainer">
+      <div className="projectsContainer">
         {projectCardData.map((card, index) => {
           return (
             <WorkCard
