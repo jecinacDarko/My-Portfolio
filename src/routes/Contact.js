@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import BannerImage from '../components/BannerImage';
 import Form from '../components/Form';
 import { motion } from 'framer-motion';
 

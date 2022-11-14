@@ -3,6 +3,7 @@ import React from "react";
 import thumbnail from '../assets/aboutPic.jpg';
 import aboutPicture from '../assets/IMG_6628.jpeg'
 import { Link } from "react-router-dom";
+import motion from "framer-motion";
 
 const AboutContent = () => {
   return (
@@ -34,7 +35,7 @@ const AboutContent = () => {
               <button className="btn">Contact</button>
             </Link>
             
-          </aside>
+          </aside> 
           <aside className='rightside'>
           <img src={aboutPicture} alt="portrait img" className="rightside_picture" />  
           </aside>
