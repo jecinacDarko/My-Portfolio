@@ -11,29 +11,24 @@ const Navbar = () => {
   const [color, setColor] = useState(false);
   const changeColor = () => {
     if (window.scrollY >= 100) {
-      setColor(true);
+      setColor(true); 
     } else {  
       setColor(false);
     }
   };
 
   const closeMenu = () => setClick(false)
-
   window.addEventListener("scroll", changeColor);
 
   return (
-    <div className={color ? "header header-bg" : "header"}>
-      
-      <Link to="/"></Link>
-
+    <div className={color ? "header header-bg" : "header"}>    
+      <Link to="/" ></Link>
       <ul className={click ? "nav-menu active" : "nav-menu"}> 
-        <li><LinkS to="home" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>Home</LinkS></li>
-        <li><LinkS to="about" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>About</LinkS></li>
-        <li><LinkS to="projects" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>Projects</LinkS></li>
-        <li><LinkS to="contact" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>Contact</LinkS></li>
+        <li><LinkS to="home"spy={true} smooth={true} offset={0} duration={700} onClick={closeMenu} style={{cursor:'pointer'}} >Home</LinkS></li>
+        <li><LinkS to="about" spy={true} smooth={true} offset={0} duration={700} onClick={closeMenu} style={{cursor:'pointer'}} >About</LinkS></li>
+        <li><LinkS to="projects" spy={true} smooth={true} offset={0} duration={700} onClick={closeMenu} style={{cursor:'pointer'}} >Projects</LinkS></li>
+        <li><LinkS to="contact" spy={true} smooth={true} offset={0} duration={700} onClick={closeMenu} style={{cursor:'pointer'}} >Contact</LinkS></li>
         <li><Link to="//drive.google.com/file/d/1vf2PPXBSpRJYQEC6--cfzbthnhnNlg6l/view?usp=share_link">Resume</Link></li>
-        
-
       </ul>
       
       <div className="hamburger" onClick={handleClick}>

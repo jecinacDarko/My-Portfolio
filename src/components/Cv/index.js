@@ -1,5 +1,5 @@
 import React from 'react'
-import ResumeImage from "../assets/resume.png";
+import ResumeImage from "../../assets/resume.png";
 import "./Cv.css";
 
 export default function Cv() {

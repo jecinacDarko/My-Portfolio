@@ -1,6 +1,6 @@
 import React from 'react';
 import './WorkCard.css';
-import './Projects.css';
+import '../Projects/Projects.css';
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 

@@ -1,6 +1,6 @@
-import './Projects.css';
-import projectCardData from '../mock-data/ProjectCardData';
-import WorkCard from './WorkCard';
+import '../Projects/Projects.css';
+import projectCardData from '../../mock-data/ProjectCardData';
+import WorkCard from '../WorkCard';
 import motion from "framer-motion";
 
 export default function Projects() {
