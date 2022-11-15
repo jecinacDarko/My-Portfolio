@@ -1,6 +1,6 @@
 .projectsPage {
   width:100vw;
-  height:100% ;
+  height:100vh;
   background-image:url("../../assets/photos/2ndhome.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -15,7 +15,7 @@
   font-size:2.5em;
 }
 
- .projectsPage_title {
+.projectsPage_title {
   font-size:1em;
   padding:1em;
   color:white;
@@ -23,7 +23,7 @@
 
 .projectsContainer {
   width:100%;
-  height:80vh;
+  height:100%;
   display:flex;
   justify-content:space-between;
   align-items:center;
@@ -33,6 +33,9 @@
 
 @media screen and (max-width: 1024px) {
 
+  .projectsPage {
+    height:100%;
+  }
   .projectsPage h1 {
     font-size:1em;
     padding:20px;
@@ -44,3 +47,12 @@
   }
 }
 
+@media screen and (max-width: 600px) {
+
+  .projectsContainer {
+    height:100%;
+  }
+  .projectsPage {
+    height:100%;
+  }
+}
