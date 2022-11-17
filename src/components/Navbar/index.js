@@ -23,6 +23,7 @@ const Navbar = () => {
   return (
     <div className={color ? "header header-bg" : "header"}>    
       <Link to="/" ></Link>
+      
       <ul className={click ? "nav-menu active" : "nav-menu"}> 
         <li><LinkS to="home"spy={true} smooth={true} offset={0} duration={700} onClick={closeMenu} style={{cursor:'pointer'}} >Home</LinkS></li>
         <li><LinkS to="about" spy={true} smooth={true} offset={0} duration={700} onClick={closeMenu} style={{cursor:'pointer'}} >About</LinkS></li>

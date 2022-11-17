@@ -13,7 +13,7 @@ const HomeImage = () => {
         <p>Darko Jecinac</p>
         <h1>Full Stack Developer</h1>
         <div>
-          <Link to="/resume" className="btn">
+          <Link to="//drive.google.com/file/d/1vf2PPXBSpRJYQEC6--cfzbthnhnNlg6l/view?usp=share_link" className="btn">
             Resume
           </Link>
           <Link to="/contact" className="btn btn-light">

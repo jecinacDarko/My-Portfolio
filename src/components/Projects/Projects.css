@@ -1,7 +1,7 @@
 .projectsPage {
   width:100vw;
   height:100vh;
-  background-image:url("../../assets/photos/2ndhome.png");
+  background-image:url("../../assets/photos/anotherOne.png");
   background-size: cover;
   background-repeat: no-repeat;
   image-orientation:inherit;
@@ -16,7 +16,7 @@
 }
 
 .projectsPage_title {
-  font-size:1em;
+  font-size:1.3em;
   padding:1em;
   color:white;
 }

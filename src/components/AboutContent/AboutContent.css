@@ -34,7 +34,7 @@ section {
 
 .leftside article {
   color:white;
-  font-size:1em;
+  font-size:1.1em;
   overflow: visible;
   width:100%;
   padding:10%;
@@ -69,6 +69,7 @@ section {
   .leftside {
     margin:auto;
     width:100%;
+    margin-top:
   }
 
   .leftside h1 {
@@ -90,6 +91,7 @@ section {
     height:80%;
     padding:5%;
     }
+
   .thumbnail {
     visibility:visible;
     width: 75vw;
@@ -97,6 +99,7 @@ section {
     margin: auto;
     border-radius:5px;
   }
+
   .rightside_picture {
     display: none;
   }

@@ -10,9 +10,8 @@ async function run() {
     const collection = database.collection('MyProjects');
     const projects = collection.find({});
     const projectsArray = await projects.toArray();
-
     console.log(projectsArray);
-
+    
   } finally {   
     await client.close();
   }

@@ -1,15 +1,9 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-import Cv from '../components/Cv';
+import { Link } from 'react-router-dom';
 
 const Resume = () => {
   return (
-    <div>
-      <Navbar />
-      <Cv />
-      <Footer />
-    </div>
+    <Link to="//drive.google.com/file/d/1vf2PPXBSpRJYQEC6--cfzbthnhnNlg6l/view?usp=share_link">Resume</Link>
   );
 };
 
