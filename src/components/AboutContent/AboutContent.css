@@ -17,18 +17,22 @@
 }
 
 .leftside { 
-  display:block;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
   text-align:center;
+  justify-content:center;
   width:50%;
   height:100%;
-  padding:10% 0;
+  padding:10% 5%;
   margin-top:50px;
 }
 
 .rightside {
-  display:block;
+  display:flex;
   text-align:center;
   align-items:center;
+  justify-content:center;
   width:50%;
   height:auto;
   margin-top: 100px;
@@ -36,7 +40,7 @@
 
 .leftside .article {
   color:rgb(17, 15, 15);
-  font-size: 1em;
+  font-size: 1.5em;
   font-weight:500;
   overflow: visible;
   width:100%;
@@ -51,11 +55,10 @@
 }
 
 .rightside_picture {
-  width: 15rem;
-  height: 35rem;
+  width: 25vw;
+  height: 50vh;
   width:auto;
   border-radius:10px;
-  margin-top:50px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;  
 }
 
@@ -66,6 +69,37 @@
 
 .contactButton {
   margin-top:40px;
+}
+
+
+@media screen and (max-width: 1700px) {
+  .leftside .article {
+    color:rgb(17, 15, 15);
+    font-size: 1.2em;
+    justify-content:space-between;
+  }
+
+  .leftside h1 {
+    font-size:3em;
+    color:salmon;
+    text-shadow: 3px 3px #0a0909;
+  }
+
+}
+
+@media screen and (max-width: 1025px) {
+  .leftside .article {
+    color:rgb(17, 15, 15);
+    font-size: 1.1em;
+    justify-content:space-between;
+  }
+
+  .leftside h1 {
+    font-size:3.5em;
+    color:salmon;
+    text-shadow: 3px 3px #0a0909;
+  }
+
 }
 
 @media screen and (max-width: 800px) {
@@ -90,9 +124,6 @@
 
   .leftside h1 {
     font-size:2em;
-  }
-  
-  h1 {
     font-size: 10px;
     text-align: center;
   }
@@ -100,15 +131,16 @@
   .article {
     height:80%;
     width:75vw;
+    min-width:30%;
     }
 
-    .leftside .article {
-    height:20em;
-    font-size: 0.8rem;
-    text-align:center;
-    letter-spacing:0.15em;
-    padding:20px;
-    position:relative;
+  .leftside .article {
+  height:20em;
+  font-size: 0.8rem;
+  text-align:center;
+  letter-spacing:0.15em;
+  padding:20px;
+  position:relative;
 
   }
   .thumbnail {
@@ -120,6 +152,7 @@
     padding-top:6%;
   }
 }
+
 
 @media screen and (max-width: 750px) {
 
