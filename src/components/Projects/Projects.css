@@ -2,11 +2,10 @@
   box-sizing:border-box;
   width:100vw;
   height:100vh;
-  background: rgb(64,107,96);
-  background: radial-gradient(circle, rgba(64,107,96,1) 0%, rgba(0,1,1,1) 100%);
+  background-image: url('../../assets/photos/macbook2.png');
   object-position:center;
   object-fit:cover;
-  background-size:cover;
+  /* background-size:cover; */
   background-repeat: no-repeat;
   text-align:center;
   padding:20px;
@@ -16,7 +15,6 @@
   margin-top:2em;
   font-size:4em;
   color:rgb(255, 255, 255);
-  text-shadow: 4px 4px rgb(6, 3, 3)
 }
 
 .projectsPage_title {

@@ -45,13 +45,12 @@
   overflow: visible;
   width:100%;
   padding: 40px;
-  letter-spacing: 2.5px;
+  letter-spacing: 2px;
 }
 
 .leftside h1 {
   font-size:4em;
   color:salmon;
-  text-shadow: 3px 3px #0a0909;
 }
 
 .rightside_picture {
@@ -148,11 +147,9 @@
     width: 80vw;
     height: auto;
     border-radius:5px;
-    margin:auto;
-    padding-top:6%;
+    margin:5%;
   }
 }
-
 
 @media screen and (max-width: 750px) {
 
@@ -163,12 +160,27 @@
   .aboutPicture {
     display:none;
   }
+
   .rightside_picture {
     display: none;
+  }
+
+  .leftside .article {
+    height:20em;
+    font-size: 0.8rem;
+    text-align:center;
+    letter-spacing:0.1em;
+    padding:20px;
+    position:relative;
   }
 
   .article {
     height:80%;
     width:75vw;
     }
+
+  .leftside h1 {
+    font-size:2em;
+    text-align: center;
+  }
 }  
