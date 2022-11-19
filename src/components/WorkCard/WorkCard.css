@@ -42,12 +42,12 @@
   overflow:hidden;
 }
 
-.projectCard__description {
+.projectCard p {
   min-height:20%;
   max-height:33%;
   width:100%;
   color:white;
-  font-size:0.8em;
+  font-size:0.9em;
   text-align:justify;
   text-rendering:geometricPrecision;
   overflow:hidden; 

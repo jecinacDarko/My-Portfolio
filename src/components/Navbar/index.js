@@ -26,7 +26,7 @@ const Navbar = () => {
       <h1 className='logo'>DJ</h1>
       <ul className={click ? "nav-menu active" : "nav-menu"}> 
         <li><LinkS to="home"spy={true} smooth={true} offset={0} duration={700} onClick={closeMenu} style={{cursor:'pointer'}} >Home</LinkS></li>
-        <li><LinkS to="about" spy={true} smooth={true} offset={-90} duration={700} onClick={closeMenu} style={{cursor:'pointer'}} >About</LinkS></li>
+        <li><LinkS to="about" spy={true} smooth={true} offset={0} duration={700} onClick={closeMenu} style={{cursor:'pointer'}} >About</LinkS></li>
         <li><LinkS to="projects" spy={true} smooth={true} offset={0} duration={700} onClick={closeMenu} style={{cursor:'pointer'}} >Projects</LinkS></li>
         <li><LinkS to="techstack" spy={true} smooth={true} offset={-90} duration={700} onClick={closeMenu} style={{cursor:'pointer'}} >Techstack</LinkS></li> 
         <li><LinkS to="contact" spy={true} smooth={true} offset={0} duration={700} onClick={closeMenu} style={{cursor:'pointer'}} >Contact</LinkS></li>

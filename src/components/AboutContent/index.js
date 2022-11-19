@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 const AboutContent = () => {
   return (
-    <section> 
+    <div className='aboutSection'> 
       {/* <motion.div
          animate={{ y: -30 }}
          transition={{ ease: "easeOut", duration: 2 }}
@@ -21,7 +21,7 @@ const AboutContent = () => {
             <img src={thumbnail} alt="portrait img" className="thumbnail" />
               <h1>About me.</h1>
  
-            <article>
+            <div className='article'>
               Hi! My name is Darko! I'm a JavaScript Full Stack Developer based in Stockholm, Sweden.
               Before my professional career in TECH, I have spent 15 years working as a Music Producer, 
               Sound Engineer and was the one of the most popular DJ's and show runners in my home country 
@@ -30,18 +30,20 @@ const AboutContent = () => {
 
               After many years of hobby coding and big love for technology, I've decided to make it a
               professional career. I found Salt the prestigious coding bootcamp in my current home
-              city of Stockholm and this is where my journey started.
+              city of Stockholm and this is where my journey started.<br/>
+              <div className='contactButton'>
+              <Link to="/contact">
+              <button className="btn">Contact</button>
+             </Link>
+             </div>
 
-              
-            </article>
-            <Link to="/contact">
-              <button className="btn" id="contactButton">Contact</button>
-            </Link>
+            </div>
+
           </aside> 
 
       </div>
       {/* </motion.div> */}
-    </section>
+    </div>
  
   );
 };

@@ -10,13 +10,13 @@
 }
 
 .formContainer h1 {
-  padding-top:3em;
+  padding-top:2em;
   font-size:4em;
 }
 
 .formContainer p {
   font-size:1.2em;
-  padding:1em;
+  padding:0.6em;
 }
 
 label{
@@ -63,8 +63,19 @@ form input, form textarea{
 @media screen and (max-width: 600px) {
   
   form{
-    width:100vw;
+    width:90%;
     justify-content:center;
+    height:100%;
+  }
+  .formContainer h1 {
+    padding-top:1em;
+    padding-top:1em;
+    font-size:2em;
+  }
+  
+  .formContainer p {
+    font-size:1em;
+    padding:1em;
   }
 
   
