@@ -19,7 +19,7 @@ export const Form = () => {
 
   return (
     <div className='formContainer' id="contact">
-      <h1>Contact.</h1>
+      <h1>Contact</h1>
       <p>Feel free to send me an email!</p>
       {!messageSent && <div className="form">
         <form ref={form} onSubmit={sendEmail}>

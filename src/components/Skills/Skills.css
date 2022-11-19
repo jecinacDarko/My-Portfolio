@@ -1,0 +1,105 @@
+/* Small Screens max width 640px */
+@media screen and (max-width: 640px) {
+  .skillsGrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    grid-auto-rows: auto;
+    height: 100%;
+  }
+.skillsGrid img {
+  height: 75px;
+  width: 75px;
+}
+.skills{
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+}
+
+/* Medium Screens min width 641px change to 4 columns */
+@media screen and (min-width: 641px) {
+  .skillsGrid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    grid-auto-rows: auto;
+    height: auto;
+  }
+.skillsGrid img {
+  height: 100px;
+  width: 100px;
+}
+.skills{
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+}
+
+@media screen and (min-width: 1080px) {
+  .skillsGrid{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 50px;
+    grid-auto-rows: auto;
+    height: auto;
+    padding:5px;    
+  }
+
+.skillsGrid img {
+  height: 160px;
+  width: 160px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border-radius:5%;
+  padding:40px;
+  transition: transform .5s;
+}
+
+.skillsGrid img:hover{
+  transform: scale(1.5) ease-in;
+  
+}
+
+.skills{
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.skills h1 {
+  color:salmon;
+  font-size:4em;
+  font-weight:700;
+  padding:50px;
+  margin-top:-150px;
+  text-shadow: 2px 2px #1b1a1a;
+}
+
+.skills h2 {
+  color:black;
+  font-weight:400;
+  padding:30px;
+}
+.motion {
+  border:none;
+}
+}

@@ -2,6 +2,7 @@ import "./HomePage.css";
 import React from "react";
 import IntroVideo from "../../assets/videos/video.mp4"
 import { Link } from "react-router-dom";
+import { Link as LinkS } from 'react-scroll';
 
 const HomeImage = () => {
   return (
@@ -16,9 +17,9 @@ const HomeImage = () => {
           <Link to="//drive.google.com/file/d/1vf2PPXBSpRJYQEC6--cfzbthnhnNlg6l/view?usp=share_link" className="btn">
             Resume
           </Link>
-          <Link to="/contact" className="btn btn-light">
+          <LinkS to="contact" className="btn btn-light" spy={true} smooth={true} offset={0} duration={700} style={{cursor:'pointer'}}>
             Contact
-          </Link>
+          </LinkS>
         </div>
       </div>
     </div>

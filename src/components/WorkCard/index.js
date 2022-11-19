@@ -13,13 +13,15 @@ export default function WorkCard(props) {
       <div className='projectCard__links--container'>
         <Link 
           to={props.view} 
-          className="projectCard__links--button"> 
+          className='projectCard__links--button'
+          target='_blank'> 
           View
         </Link>
 
         <Link 
           to="url.com" 
-          className="projectCard__links--button">
+          className="projectCard__links--button"
+          target='_blank'>
           Source
         </Link>
       </div>
