@@ -24,6 +24,26 @@ import './Skills.css'
 import { motion } from 'framer-motion';
 
 function Skills () {
+
+
+	// { 
+	// 	"title": "HTML 5",
+	// 	"imgSrc": "..."
+	//   }
+	//   [ {} {} {} {} {}]
+	//   const skills = []
+	//   skils.map(skill => createButton(skill.imgSrc, skill.title))
+
+	const makeButton = (imgSrc, title) => {
+		return (<motion.button
+		className='motionB'
+		whileHover={{ scale: 1.1 }}
+		whileTap={{ scale: 0.9 }}
+	>
+	<Skill source={imgSrc} type='image' alt={`The logo icon for ${title}`} title={title}/>
+	</motion.button>
+	)}
+
     return (
 
         <div className="skills" id='techstack'>
@@ -32,174 +52,28 @@ function Skills () {
  
             <div className="skillsGrid">
 
-							<motion.button
-								className='motionB'
-								whileHover={{ scale: 1.1 }}
-								whileTap={{ scale: 0.9 }}
-							>
-							<Skill source={htmlImg} type='image' alt="The logo icon for HTML" title="HTML5"/>
-							</motion.button>
+				{makeButton(htmlImg, "HTML5")}
+				{makeButton(cssImg, "CSS")}
+				{makeButton(jsImg, "JavaScript")}
+				{makeButton(reactImg, "ReactJs")}
+				{makeButton(nextImg, "NextJs")}
+				{makeButton(reduxImg, "Redux")}
+				{makeButton(twImg, "Tailwind Css")}
+				{makeButton(nodeImg, "NodeJs")}
+				{makeButton(expressImg, "ExpressJs")}
+				{makeButton(mongoImg, "Mongo Db")}
+				{makeButton(postgreSQLImg, "PostgreSQL")}
+				{makeButton(tsImg, "TypeScript")}
+				{makeButton(githubImg, "Github")}
+				{makeButton(mongooseImg, "Mongoose")}
+				{makeButton(graphqlImg, "GraphQL")}
+				{makeButton(awsImg, "AWS")}
+				{makeButton(netlifyImg, "Netlify")}
+				{makeButton(postmanImg, "Postman")}
+				{makeButton(sassImg, "Sass Css")}
+				{makeButton(gitImg, "Git")}
+				{makeButton(herokuImg, "Heroku")}
 
-							<motion.button
-								className='motionB'
-								whileHover={{ scale: 1.1 }}
-								whileTap={{ scale: 0.9 }}
-							>
-							<Skill source={cssImg} alt="The logo icon for CSS3" title="CSS 3"/>
-							</motion.button>
-
-							<motion.button
-								className='motionB'
-								whileHover={{ scale: 1.1 }}
-								whileTap={{ scale: 0.9 }}
-							>
-							<Skill source={jsImg} alt="The logo icon for JavaScript" title="Javascript"/>
-							</motion.button>
-
-							<motion.button
-								className='motionB'
-								whileHover={{ scale: 1.1 }}
-								whileTap={{ scale: 0.9 }}
-							>
-							<Skill source={reactImg} alt="The logo icon for ReactJs" title="ReactJs"/>
-							</motion.button>
-
-							<motion.button
-								className='motionB'
-								whileHover={{ scale: 1.1 }}
-								whileTap={{ scale: 0.9 }}
-							>
-							<Skill source={nextImg} alt="The logo icon for NextJs" title="NextJs"/>
-							</motion.button>
-
-							<motion.button
-								className='motionB'
-								whileHover={{ scale: 1.1 }}
-								whileTap={{ scale: 0.9 }}
-							>
-							<Skill source={twImg} alt="The logo icon for tailwind css" tittle="Tailwind"/>
-							</motion.button>
-
-							<motion.button
-								className='motionB'
-								whileHover={{ scale: 1.1 }}
-								whileTap={{ scale: 0.9 }}
-							>
-							<Skill source={nodeImg} alt="The logo icon for NodeJs" title="NodeJs"/>
-							</motion.button>
-
-							<motion.button
-								className='motionB'
-								whileHover={{ scale: 1.1 }}
-								whileTap={{ scale: 0.9 }}
-							>
-							<Skill source={expressImg} alt="The logo icon for ExpressJs" title="ExpressJs"/>
-							</motion.button>
-
-							<motion.button
-								className='motionB'
-								whileHover={{ scale: 1.1 }}
-								whileTap={{ scale: 0.9 }}
-							>
-							<Skill source={mongooseImg} alt="The logo icon for Mongoose" title="Mongoose"/>
-							</motion.button>
-
-							<motion.button
-								className='motionB'
-								whileHover={{ scale: 1.1 }}
-								whileTap={{ scale: 0.9 }}
-							>
-							<Skill source={tsImg} alt="The logo icon for Typescript" title="Typescript"/>
-							</motion.button>
-
-							<motion.button
-								className='motionB'
-								whileHover={{ scale: 1.1 }}
-								whileTap={{ scale: 0.9 }}
-							>
-							<Skill source={reduxImg} alt="The logo icon for Redux" title="Redux"/>
-							</motion.button>
-
-							<motion.button
-								className='motionB'
-								whileHover={{ scale: 1.1 }}
-								whileTap={{ scale: 0.9 }}
-							>
-							<Skill source={graphqlImg} alt="The logo icon for graphqlImg" title="GraphQL"/>
-							</motion.button>
-
-							<motion.button
-								className='motionB'
-								whileHover={{ scale: 1.1 }}
-								whileTap={{ scale: 0.9 }}
-							>
-							<Skill source={awsImg} alt="The logo icon for AWS" title="AWS"/>
-							</motion.button>
-
-							<motion.button
-								className='motionB'
-								whileHover={{ scale: 1.1 }}
-								whileTap={{ scale: 0.9 }}
-							>
-							<Skill source={netlifyImg} alt="The logo icon for Netlify" title="Netlify"/>
-							</motion.button>
-
-							<motion.button
-								className='motionB'
-								whileHover={{ scale: 1.1 }}
-								whileTap={{ scale: 0.9 }}
-							>
-							<Skill source={postmanImg} alt="The logo icon for Postman" title="Postman"/>
-							</motion.button>
-
-							<motion.button
-								className='motionB'
-								whileHover={{ scale: 1.1 }}
-								whileTap={{ scale: 0.9 }}
-							>
-							<Skill source={mongoImg} alt="The logo icon for MongoDb" title='MongoDb'/>
-							</motion.button>
-
-							<motion.button
-								className='motionB'
-								whileHover={{ scale: 1.1 }}
-								whileTap={{ scale: 0.9 }}
-							>
-							<Skill source={sassImg} alt="The logo icon for Sass css" title="Sass"/>
-							</motion.button>
-
-							
-							<motion.button
-								className='motionB'
-								whileHover={{ scale: 1.1 }}
-								whileTap={{ scale: 0.9 }}
-							>
-							<Skill source={herokuImg} alt="The logo icon for Heroku" title="Heroku"/>
-							</motion.button>
-
-							<motion.button
-								className='motionB'
-								whileHover={{ scale: 1.1 }}
-								whileTap={{ scale: 0.9 }}
-							>
-								<Skill source={postgreSQLImg} alt="The logo icon for PostgreSQL" title="PostgreSql"/>
-							</motion.button>
-
-							<motion.button
-								className='motionB'
-								whileHover={{ scale: 1.1 }}
-								whileTap={{ scale: 0.9 }}
-							>
-								<Skill source={gitImg} alt="The logo icon for Git" title="Git"/>
-							</motion.button>
-
-							<motion.button
-								className='motionB'
-								whileHover={{ scale: 1.1 }}
-								whileTap={{ scale: 0.9 }}
-							>
-								<Skill source={githubImg} alt="The logo icon for Github" title="Github"/>
-							</motion.button>
             </div>            
         </div>
     )

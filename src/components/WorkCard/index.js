@@ -6,7 +6,10 @@ import { motion } from "framer-motion";
 
 export default function WorkCard(props) {
   return (
-    <div className='projectCard'> 
+       <motion.div className='projectCard'
+    whileHover={{ scale: 1.1 }}
+    whileTap={{ scale: 0.9 }}
+  >
       <img className='projectCard__image' img src={props.imgsrc}></img>
       <h2 className='projectCard__title' >{props.title}</h2>
       <p className='projectCard__description'>{props.description}</p>
@@ -17,7 +20,6 @@ export default function WorkCard(props) {
           target='_blank'> 
           View
         </Link>
-
         <Link 
           to="url.com" 
           className="projectCard__links--button"
@@ -25,6 +27,6 @@ export default function WorkCard(props) {
           Source
         </Link>
       </div>
-    </div>
+     </motion.div>
   )
 }

@@ -11,18 +11,14 @@
   flex-wrap:nowrap;
   min-height:50vh;
   border:1px solid ; 
-  opacity:75%;
   gap:5%;
   border-radius:10px;
   border:1px solid rgb(54, 53, 53);
-  transition: all ease 200ms;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .projectCard:hover {
-  transform: scale(1.05);
   cursor:pointer;
-  opacity:100%;
 }
 
 .projectCard__title {
@@ -31,7 +27,6 @@
   font-size:1.2em;
   text-align:left;
   padding:0 20px;
-
 }
 
 .projectCard__image {
