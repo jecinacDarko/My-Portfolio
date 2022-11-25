@@ -5,6 +5,7 @@
   width: 100%;
   height: 100vh;
   background-image: url('../../assets/photos/anotherOne.png');
+  background-size:cover;
   object-position: center;
   object-fit: cover;
   box-sizing: border-box;
