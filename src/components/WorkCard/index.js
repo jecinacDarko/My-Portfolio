@@ -8,7 +8,6 @@ export default function WorkCard(props) {
   return (
        <motion.div className='projectCard'
     whileHover={{ scale: 1.1 }}
-    whileTap={{ scale: 0.9 }}
   >
       <img className='projectCard__image' img src={props.imgsrc}></img>
       <h2 className='projectCard__title' >{props.title}</h2>

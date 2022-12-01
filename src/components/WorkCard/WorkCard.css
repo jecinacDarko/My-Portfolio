@@ -74,7 +74,8 @@
 }
 
 .projectCard__links--button:hover {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgb(166, 164, 164);
+  border:1px solid salmon;
   color: #fff;
   transition: 0.3s;
 }
@@ -92,8 +93,7 @@
 
 @media screen and (max-width: 1024px) {
   .projectCard {
-    width:40%;
-    height:50%;
+    width:50%;
     margin-bottom:20px; 
     height:40vh;
     max-width:350px;

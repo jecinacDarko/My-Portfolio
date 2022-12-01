@@ -38,7 +38,6 @@ function Skills () {
 		return (<motion.button
 		className='motionB'
 		whileHover={{ scale: 1.1 }}
-		whileTap={{ scale: 0.9 }}
 	>
 	<Skill source={imgSrc} type='image' alt={`The logo icon for ${title}`} title={title}/>
 	</motion.button>

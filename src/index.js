@@ -9,6 +9,3 @@ const root = ReactDOMClient.createRoot(container);
 root.render(
         <App />
 );
-
-
-
