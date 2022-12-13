@@ -8,41 +8,34 @@ import { motion } from "framer-motion";
 const AboutContent = () => {
   return (
     <div className='aboutSection'> 
-      {/* <motion.div
-         animate={{ y: -30 }}
-         transition={{ ease: "easeOut", duration: 2 }}
-      > */}
       <div className='aboutContainer' id="about"> 
       <aside className='rightside'>
           <img src={aboutPicture} alt="portrait img" className="rightside_picture" />  
           </aside>
-          <aside className='leftside'>
-     
+          
+          <aside className='leftside'>    
             <img src={thumbnail} alt="portrait img" className="thumbnail" />
               <h1>About me.</h1>
- 
+
             <div className='article'>
+              
               Hi! My name is Darko! I'm a JavaScript Full Stack Developer based in Stockholm, Sweden.
               Before my professional career in TECH, I have spent 15 years working as a Music Producer, 
               Sound Engineer and was the one of the most popular DJ's and show runners in my home country 
               of Serbia. <br/><br/><br/>
               
-
               After many years of hobby coding and big love for technology, I've decided to make it a
               professional career. I found Salt the prestigious coding bootcamp in my current home
               city of Stockholm and this is where my journey started.<br/>
+               
               <div className='contactButton'>
               <Link to="/contact">
               <button className="btn">Contact</button>
              </Link>
              </div>
-
             </div>
-
           </aside> 
-
       </div>
-      {/* </motion.div> */}
     </div>
  
   );

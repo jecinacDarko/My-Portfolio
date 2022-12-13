@@ -1,6 +1,7 @@
 import React, { useState , useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './Form.css';
+import { Link as LinkS} from 'react-scroll'
 
 export const Form = () => {
   const [messageSent, setMessageSent] = useState(false);
@@ -17,11 +18,18 @@ export const Form = () => {
       });
   };
 
+  function refreshPage() {
+    window.location.reload(false);
+  }
+
   return (
     <div className='formSection' id="contact">
       <div className='formContainer'>
-        <h1>Contact</h1>
-        <p>Feel free to send me an email!</p>
+        {!messageSent && <div>
+          <h1>Contact</h1>
+          <p>Feel free to send me an email!</p>
+
+        </div>}
         {!messageSent && <div className="form">
           <form ref={form} onSubmit={sendEmail}>
             <label>Your Name</label>
@@ -35,7 +43,11 @@ export const Form = () => {
             <button className="btn" type="submit" value="send">Submit</button> 
           </form>
         </div>}
-        {messageSent && <div className="messageSent">Thank you for contacting me! <br></br>Your email has been sent sucessfully! </div>}
+        {messageSent && <div className="messageSent">
+          <h2>Thank you for contacting me!</h2> <br></br>
+          <h3>Your email has been sent sucessfully!</h3> 
+          <button onClick={refreshPage} className="btn">Go back</button> 
+        </div>}
       </div>
     </div>  
   );

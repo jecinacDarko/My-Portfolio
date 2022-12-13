@@ -17,6 +17,7 @@ export default function Projects() {
             title={card.title}
             description={card.description}
             view={card.view}
+            source={card.source}
             />
           );
         })}

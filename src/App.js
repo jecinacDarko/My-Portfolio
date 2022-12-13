@@ -6,10 +6,12 @@ import Projects from './routes/Projects';
 import Resume from './routes/Resume'; 
 import Contact from './routes/Contact';
 import Skills from './routes/SkillRoute';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
           <Route path='/' element={<Home />}  />
           <Route path='/about' element={<About />} /> 

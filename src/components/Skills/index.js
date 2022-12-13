@@ -26,13 +26,6 @@ import { motion } from 'framer-motion';
 function Skills () {
 
 
-	// { 
-	// 	"title": "HTML 5",
-	// 	"imgSrc": "..."
-	//   }
-	//   [ {} {} {} {} {}]
-	//   const skills = []
-	//   skils.map(skill => createButton(skill.imgSrc, skill.title))
 
 	const makeButton = (imgSrc, title) => {
 		return (<motion.button
@@ -50,6 +43,7 @@ function Skills () {
                 <h1>Technologies</h1>
  
             <div className="skillsGrid">
+
 
 				{makeButton(htmlImg, "HTML5")}
 				{makeButton(cssImg, "CSS")}

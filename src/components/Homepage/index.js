@@ -3,6 +3,7 @@ import React from "react";
 import IntroVideo from "../../assets/videos/video.mp4"
 import { Link } from "react-router-dom";
 import { Link as LinkS } from 'react-scroll';
+import MovingComponent from 'react-moving-text'
 
 const HomeImage = () => {
   return (
@@ -11,8 +12,19 @@ const HomeImage = () => {
         <video src={IntroVideo} autoPlay loop muted type='video/mp4' className='bg-video'></video>
       </div>
       <div className="content">
-        <p>Darko Jecinac</p>
-        <h1>Full Stack Developer</h1>
+        
+        <MovingComponent
+          type="fadeInFromTop"
+          duration="2500ms"
+          delay="0s"
+          direction="normal"
+          timing="ease-in-out"
+          iteration="1"
+          fillMode="both">
+              
+          <p>Darko Jecinac</p>
+          <h1>Full Stack Developer</h1>
+        </MovingComponent>
         <div>
           <Link to="//drive.google.com/file/d/1vf2PPXBSpRJYQEC6--cfzbthnhnNlg6l/view?usp=share_link" className="btn">
             Resume
