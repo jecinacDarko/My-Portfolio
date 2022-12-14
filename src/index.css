@@ -36,7 +36,6 @@ ul {
 }
 
 .btn-light {
-  /* background: rgba(255, 255, 255, 0.2); */
   background: transparent;
   color: #fff;
 }
@@ -45,6 +44,5 @@ ul {
   background: rgba(56, 49, 49, 0.2);
   color: #fff;
   transition: 0.3s;
-  transform: scale(1.10);
 }
   

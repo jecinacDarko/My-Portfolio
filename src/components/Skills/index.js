@@ -37,14 +37,10 @@ function Skills () {
 	)}
 
     return (
-
         <div className="skills" id='techstack'>
-
-                <h1>Technologies</h1>
- 
+            <h1>Technologies</h1>
             <div className="skillsGrid">
-
-
+				
 				{makeButton(htmlImg, "HTML5")}
 				{makeButton(cssImg, "CSS")}
 				{makeButton(jsImg, "JavaScript")}

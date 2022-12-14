@@ -32,7 +32,6 @@ const Navbar = () => {
         <li><LinkS to="contact" spy={true} smooth={true} offset={0} duration={700} onClick={closeMenu} style={{cursor:'pointer'}} >Contact</LinkS></li>
         <li><Link to="//drive.google.com/file/d/1vf2PPXBSpRJYQEC6--cfzbthnhnNlg6l/view?usp=share_link" target='_blank'>Resume</Link></li>
       </ul>
-      
       <div className="hamburger" onClick={handleClick}>
         {click ? (
           <FaTimes size={20} style={{ color: "#fff" }} />
