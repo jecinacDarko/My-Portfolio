@@ -45,7 +45,7 @@ const ProjectCardData = [
     imgsrc: calculatorAppImage,
     title: 'RN Calculator',
     view: '',
-    source: 'https://github.com/jecinacDarko/react-native-calculator.git',
+    source: '//github.com/jecinacDarko/react-native-calculator.git',
     description: `A simple React Native Calculator. Reminds of Apple IOS calculator style.
     No comfort do written conduct at prevent manners on. Celebrated contrasted discretion him 
     sympathize her collecting occasional.  `,
